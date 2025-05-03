@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+header {
+    background-color: #ffffff;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+  }
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 60px;
+    height: auto;
+    cursor: pointer;
+}
+.logo span{
+    background-color: rgb(231, 231, 231);
+    font-size: 26px;
+    font-weight: bold;
+    color: #39005b;
+    cursor: pointer;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+nav span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    cursor: pointer;
+  }
+.scroll-section {
+    padding: 32px;
+  }
+.list {
+    padding: 20px;
+  }
+.card {
+    flex: 0 0 auto;
+    width: 150px;
+  }
+  
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+.card .text {
+    margin-top: 8px;
+  }
+.card {
+    flex: 0 0 auto;
+    width: 150px;
+  }
+.card .title {
+    font-weight: 700;
+    margin-top: 4px;
+  }
+  
+.card .author {
+    background-color: red;
+    width: 50px;
+    font-size: 13.6px;
+    color:white;
+  }
+.scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding-bottom: 16px;
+  }
+  footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 16px;
+    font-size: 14.4px;
+    color: #666;
+  } 
